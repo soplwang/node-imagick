@@ -167,6 +167,7 @@ extern "C" void
 CommandInit (Handle<Object> target)
 {
   HandleScope scope;
+
   NODE_SET_METHOD(target, "Mogrify", Mogrify);
   NODE_SET_METHOD(target, "Convert", Convert);
   NODE_SET_METHOD(target, "Composite", Composite);
