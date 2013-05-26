@@ -192,5 +192,5 @@ CommandInit (Handle<Object> target)
   NODE_SET_METHOD(target, "animate", Animate);
   NODE_SET_METHOD(target, "montage", Montage);
 
-  MagickCoreGenesis(NULL, MagickTrue);
+  MagickCoreGenesis(NULL, MagickFalse);
 }
